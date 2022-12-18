@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    position: relative;
+    width: 1270px;
+    height: 1000px;
+}
+
+body {
+    background-image: url(https://w0.peakpx.com/wallpaper/127/366/HD-wallpaper-books-on-bookshelf.jpg);
+    opacity: 1.0;
+}
+
+h1 {
+    color: #FFFF;
+    position: relative;
+    width: 885px;
+    height: 50px;
+    left: 255px;
+    top: 40px;
+    font-family: 'Katibeh';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 75px;
+    line-height: 90px;
+    text-align: center;
+}
+
+.form-container {
+    position: relative;
+    width: 885px;
+    text-align: center;
+    top: 80px;
+    left: 250px;
+    font-family: Helvetica;
+    border-color: #0c5b21;
+}
+
+#search-btn {
+    background-color:#459440;
+    color: #FFFF;
+}
+
+
