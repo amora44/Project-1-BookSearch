@@ -10,40 +10,71 @@ body {
 
 body {
     background-image: url(https://w0.peakpx.com/wallpaper/127/366/HD-wallpaper-books-on-bookshelf.jpg);
-    opacity: 1.0;
-}
+   }
 
 h1 {
-    color: #FFFF;
+    color: whitesmoke;
     position: relative;
     width: 885px;
     height: 50px;
     left: 255px;
-    top: 40px;
+    top: 10px;
     font-family: 'Katibeh';
     font-style: normal;
-    font-weight: 200;
-    font-size: 75px;
+    font-weight: bold;
+    font-size: 85px;
     line-height: 90px;
     text-align: center;
+}
+
+#quote {
+    position: relative;
+    top: 15px;
+    width: 885px;
+    left: 320px;
+    font-style: italic;
+    font-size: 20px;
+    color: #ffffff;
+
 }
 
 .form-container {
     position: relative;
     width: 885px;
     text-align: center;
-    top: 80px;
+    top: 40px;
     left: 250px;
     font-family: Helvetica;
     border-color: #0c5b21;
 }
 
+input::placeholder {
+    color: #c3bebe;
+}
 #search-btn {
     background-color:#459440;
     color: #FFFF;
+    
 }
 
+#clear-btn {
+    background-color: #863939;
+    color: #FFFF
+}
 
+h2 {
+    color: #FFFF;
+}
 
+p {
+    color: #FFFF
+}
+
+.results-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px; 
+  }
+  
 
 

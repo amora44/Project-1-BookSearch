@@ -5,24 +5,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
      <script defer src="js/script.js"></script>
      <link rel="stylesheet" href="css/style.css">
     <title>Book Search App</title>
   </head>
   <body>
     <h1>Book Search</h1>
+    <p id="quote">“Until I feared I would lose it, I never loved to read. One does not love breathing.” – Harper Lee</p>
         <div class="form-container">
-            <form class="form">
-                <input id="search" type="text" class="input" placeholder="search...">
-                <button id="search-btn" value="Book Results">Search</button>
-                <button id="clear" class="clear-results">Clear</button>
+            <form id="form">
+                <input id="search-book" type="text" placeholder="book/author/genre">
+                <button id= "search-btn" type="submit" value="Book Results">Search</button>
+                <button id="clear-btn">Clear Results</button>
             </form>
-</div>
+        </div>
   <div class="results-container">
-     <ul class="results-list" id="list">
-   </ul>
+     <ul class="results-list" id="results">
+    </ul>
+      <h2></h2>
+      <p></p>
+      <p></p>
 </div>
     
   </body>
 </html>
+
