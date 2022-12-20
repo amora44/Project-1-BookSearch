@@ -13,11 +13,13 @@ function render(data) {
             
             
         $("#results").append(
+            "<li>" +
             "<img src='" + coverImageUrl + "' style='width: " + width + "px; height: " + height + "px;'>" +
             "<h2>" + title + "</h2>" +
             "<p>By " + authors + "</p>" +
-            "<p>Categories: " + categories + "</p>" 
-        );
+            "<p>Categories: " + categories + "</p>" +
+            "</li>" 
+         );
     });
 }   
 $("#form").submit(function(e) {

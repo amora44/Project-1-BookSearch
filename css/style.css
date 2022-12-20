@@ -27,7 +27,7 @@ h1 {
     text-align: center;
 }
 
-#quote {
+#quote  {
     position: relative;
     top: 15px;
     width: 885px;
@@ -59,21 +59,49 @@ input::placeholder {
 
 #clear-btn {
     background-color: #863939;
-    color: #FFFF
+    color: #FFFF;
 }
 
 h2 {
     color: #FFFF;
+    max-width: 210px;
+    font-size: 25px;
 }
 
-p {
-    color: #FFFF
+.heading-container {
+    white-space: normal;
+
 }
 
-.results-container {
+ p {
+    color: #FFFF;
+    font-size: 17px;
+    font-weight: 510;
+    
+}
+
+.categories {
+    color: #FFFF;
+    
+}
+
+.results-container ul {
     display: flex;
     flex-wrap: wrap;
     margin-top: 150px; 
+    width: 115%;
+  }
+
+  .results-container ul li {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+  }
+
+  img {
+    max-width: 160px;
+    max-height: 260px;
+    object-fit: cover;
   }
   
 
