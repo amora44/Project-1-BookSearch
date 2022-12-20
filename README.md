@@ -1,5 +1,4 @@
-# Book Search App
-
+# Book Search App 📚
 A simple web app to search books by title, author, or genre using Google Books Api.
 
 ## Technologies Used:
@@ -14,6 +13,7 @@ It's a very simple application to use. You enter your choice of title/author/gen
 Results should display Google Books Api data.
 
 ## Examples:
+<img width="1000" alt="Screen Shot 2022-12-20 at 3 18 39 PM" src="https://user-images.githubusercontent.com/107235292/208769087-f46296ea-07eb-43b1-af89-55daca0b7732.png">
 
 
 ## Future Enhancements
