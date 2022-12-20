@@ -23,6 +23,7 @@ Results should display Google Books Api data.
 - Add link so user can read book
 - Make it more interactive for user
 - Create login so user data is saved
+- Uprgade styling
 
 
 
