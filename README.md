@@ -12,7 +12,7 @@ A simple web app to search books by title, author, or genre using Google Books A
 - HTML
 - CSS
 - JavaScript
-- JQuery
+- jQuery
 
 ## Getting Started 
 
